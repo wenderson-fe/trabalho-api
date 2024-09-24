@@ -33,7 +33,7 @@ build/
 .vscode/
 .history/
 
-# Compiled class file
+### Compiled class file ###
 *.class
 
 # Log file
