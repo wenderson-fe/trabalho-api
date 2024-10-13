@@ -2,14 +2,14 @@ package com.trabalho.crud.core.mapper;
 
 import org.mapstruct.Mapper;
 
-import com.trabalho.crud.core.dto.UserDto;
-import com.trabalho.crud.core.entity.User;
+import com.trabalho.crud.core.dto.HospedeDto;
+import com.trabalho.crud.core.entity.Hospede;
 
 @Mapper(componentModel = "spring")
 public interface UserMapper {
 
-  User toEntity(UserDto dto);
+  Hospede toEntity(HospedeDto dto);
 
-  UserDto toDto(User entity);
+  HospedeDto toDto(Hospede entity);
   
 }

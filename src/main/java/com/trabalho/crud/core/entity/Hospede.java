@@ -1,5 +1,7 @@
 package com.trabalho.crud.core.entity;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -15,8 +17,8 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "\"USER\"")
-public class User {
+@Table(name = "\"HOSPEDE\"")
+public class Hospede {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -25,5 +27,15 @@ public class User {
 	private String name;
 
 	private String email;
+
+	private String phone;
+
+	private String address;
+
+	private String birthDate;
+
+	private LocalDate checkIn;
+
+	private LocalDate checkOut;
 
 }

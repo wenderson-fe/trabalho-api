@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 
-import com.trabalho.crud.core.entity.User;
+import com.trabalho.crud.core.entity.Hospede;
 import com.trabalho.crud.core.repository.UserRepository;
 
 @ActiveProfiles("test")
@@ -26,9 +26,9 @@ class UserServiceTest {
   @BeforeEach
   void populateRepository() {
     MockitoAnnotations.openMocks(this);
-    repository.save(User.builder().name("User 1").email("email1@email.com").build());
-    repository.save(User.builder().name("User 2").email("email2@email.com").build());
-    repository.save(User.builder().name("User 3").email("email3@email.com").build());
+    repository.save(Hospede.builder().name("User 1").email("email1@email.com").build());
+    repository.save(Hospede.builder().name("User 2").email("email2@email.com").build());
+    repository.save(Hospede.builder().name("User 3").email("email3@email.com").build());
   }
 
   @Test
