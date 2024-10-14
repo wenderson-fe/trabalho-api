@@ -29,14 +29,14 @@ Este projeto é uma API RESTful desenvolvida em java utilizando o framework Spri
 1. **Clone o repositório:**
 
      ```bash
-     git clone https://link-do-repo.git
+     git clone https://github.com/wenderson-fe/trabalho-api
      ```
 
 2. **Navegue até o diretório do projeto:**
 
       ```bash
-     cd diretorio-do-projeto
-     ```
+     cd trabalho-api
+     ``` 
 
 3. **Configure o banco de dados:**
 
